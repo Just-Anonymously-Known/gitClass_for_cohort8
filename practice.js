@@ -50,4 +50,4 @@ console.log(gradingSystem(100));
 //Examples of Integers
 console.log(3);
 console.log(5);
-console.log(-67);
+console.log(-70);
