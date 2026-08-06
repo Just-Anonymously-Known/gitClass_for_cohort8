@@ -51,3 +51,9 @@ console.log(gradingSystem(100));
 console.log(3);
 console.log(5);
 console.log(-70);
+let student = {
+    name: "AKACHUKWU GODIS",
+    regno: "BAD/2026/TC-8/0175"
+};
+console.log(student.name);
+console.log(student.regno);
