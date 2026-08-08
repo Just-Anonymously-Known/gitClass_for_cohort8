@@ -1,8 +1,8 @@
 const obj = {
     name : "AKACHUKWU GODIS",
     gender : "male",
-    age : 20,
-    complexion : "dark",
+    age : 28,
+    complexion : "",
 };
 
 //adding props to the object
@@ -42,4 +42,20 @@ let hiRole = employee.role;
 let hisSalary = employee.salary;
 let hisCity = employee.city;
 
-const {name, role, salary, city} = employee;
+
+const {name , role , salary , city} = employee;
+
+let DNA = {
+    gender : "XY",
+    complexion : "dark",
+};
+
+let offspring = {
+    ...DNA,
+    name : "GODIS AKACHUKWU",
+    age: 30,
+}
+console.log(offspring)
+console.log(Object.keys(offspring));
+console.log(Object.values(offspring));
+console.log(Object.entries(offspring));
