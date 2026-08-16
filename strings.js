@@ -29,3 +29,22 @@ console.log(extractExample.slice(-3)); // "her"
 console.log(extractExample.substring(0, 3));// "Est"
 console.log(extractExample.substring(3)); // "her"
 console.log(extractExample.substring(-3)); // "Esther" (negative values are treated as 0)
+
+//replace and replaceAll
+const stringText = "Godis is an awesome developer, Godis loves coding, Godis is learning JavaScript."
+console.log(stringText.replace("Godis", "He")); 
+console.log(stringText.replaceAll("Godis", "He")); 
+let splittedText = stringText.split(", "); 
+console.log(splittedText[1].replace("Godis", "He") + ". " + splittedText[2].replace("Godis", "He"));
+// He loves coding. He is learning JavaScript.
+
+//reverse
+let palindrome = "madam";
+let reversedPalindrome = palindrome.split("").reverse().join("");
+console.log(reversedPalindrome);// madam
+
+function wordCeck(word) {
+    return word === word.split("").reverse().join("") ? "Yes it is a palindrome" : "No it is not a palindrome";
+}
+
+console.log(wordCeck("Esther"));// true
