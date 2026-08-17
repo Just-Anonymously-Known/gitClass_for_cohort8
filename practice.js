@@ -65,3 +65,14 @@ console.log(greeting);
 const schoolName = "TechCrush"
 const description = `Welcome to ${schoolName}, Where you go from novice to Tech pro!!`
 console.log(description);
+
+const name1 = "Godis";
+const age1 = 28;
+const message = `My name is ${name1} and I am ${age1} years old.`;
+console.log(message);
+
+const poem = `I am him
+He is me
+We are one
+Together we are free.`;
+console.log(poem);
