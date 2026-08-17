@@ -57,3 +57,11 @@ let student = {
 };
 console.log(student.name);
 console.log(student.regno);
+
+const name = "Godis";
+const greeting = `Hello ${name}, welcome to the world of JavaScript!`;
+console.log(greeting);
+
+const schoolName = "TechCrush"
+const description = `Welcome to ${schoolName}, Where you go from novice to Tech pro!!`
+console.log(description);
